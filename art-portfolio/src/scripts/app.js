@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadArtwork() {
         // Sample artwork data
         const artworks = [
-            { title: 'Menu', image: 'art-portfolio\src\Anika.jpg' },
+            { title: 'Menu', image: 'art-portfolio\src\Images\Anika.jpg' },
             { title: 'IDK testing', image: 'path/to/image3.jpg' },
             { title: 'Art 4', image: 'path/to/image3.jpg' },
         ];
