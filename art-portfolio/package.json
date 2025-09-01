@@ -1,0 +1,21 @@
+{
+  "name": "art-portfolio",
+  "version": "1.0.0",
+  "description": "A website to showcase art portfolio.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "art",
+    "portfolio",
+    "gallery",
+    "website"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
