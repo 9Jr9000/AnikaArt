@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Sample artwork data
         const artworks = [
             { title: 'Red Eye', image: 'path/to/image1.jpg' },
-            { title: 'Artwork 2', image: 'path/to/image2.jpg' },
+            { title: 'Menu', image: 'path/to/image2.jpg' },
             { title: 'Artwork 3', image: 'path/to/image3.jpg' },
         ];
 
