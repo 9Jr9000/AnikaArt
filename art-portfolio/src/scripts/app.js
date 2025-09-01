@@ -9,14 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const artworks = [
             { title: 'Menu', image: 'images/Anika.jpg' },
             { title: 'IDK testing', image: 'path/to/image3.jpg' },
+            { title: 'Art 3', image: 'path/to/image3.jpg' },
             { title: 'Art 4', image: 'path/to/image3.jpg' },
+            { title: 'Art 5', image: 'path/to/image3.jpg' },
         ];
 
         artworks.forEach(art => {
             const artElement = document.createElement('div');
             artElement.classList.add('art-item');
             artElement.innerHTML = `
-                <img src="${art.image}" alt="${art.title}" width="200" height="500">
+                <img src="${art.image}" alt="${art.title}" width="250" height="250">
                 <h3>${art.title}</h3>
             `;
             gallery.appendChild(artElement);
