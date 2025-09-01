@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Sample artwork data
         const artworks = [
             { title: 'Menu', image: 'images/Anika.jpg' },
-            { title: 'IDK testing', image: 'path/to/image3.jpg' },
-            { title: 'Art 3', image: 'path/to/image3.jpg' },
-            { title: 'Art 4', image: 'path/to/image3.jpg' },
-            { title: 'Art 5', image: 'path/to/image3.jpg' },
+            { title: 'IDK testing', image: 'images/Anika1.jpg' },
+            { title: 'Art 3', image: 'images/Anika2.jpg' },
+            { title: 'Art 4', image: 'images/Anika3.jpg' },
+            { title: 'Art 5', image: 'images/Anika.jpg' },
         ];
 
         artworks.forEach(art => {
