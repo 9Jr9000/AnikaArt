@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const artElement = document.createElement('div');
             artElement.classList.add('art-item');
             artElement.innerHTML = `
-                <img src="${art.image}" alt="${art.title}" width="200" height="200">
+                <img src="${art.image}" alt="${art.title}" width="200" height="500">
                 <h3>${art.title}</h3>
             `;
             gallery.appendChild(artElement);
