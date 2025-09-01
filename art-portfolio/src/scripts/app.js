@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { title: 'Red Eye', image: 'path/to/image1.jpg' },
             { title: 'Menu', image: 'path/to/image2.jpg' },
             { title: 'IDK testing', image: 'path/to/image3.jpg' },
+            { title: 'Art 4', image: 'path/to/image3.jpg' },
         ];
 
         artworks.forEach(art => {
